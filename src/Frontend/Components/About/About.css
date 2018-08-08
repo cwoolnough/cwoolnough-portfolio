@@ -1,0 +1,32 @@
+.section-about {
+    background-color: #f7f7f7;
+    padding: 25rem 0;
+    margin-top: -25vh;
+}
+
+.section-about-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 7.5rem;
+}
+
+.section-about-title {
+    font-size: 4rem;
+    font-weight: 300;
+    color: #374054;
+}
+
+.section-about-paragraph {
+    display: block;
+    color: #74808a;
+    width: 50%;
+} 
+
+@media only screen and (max-width: 640px){
+    .section-about-container {
+       display: block; 
+    }
+    .section-about-paragraph {
+        width: 100%;
+    }
+}

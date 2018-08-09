@@ -2,9 +2,10 @@ import React from 'react';
 import './NavBar.css';
 
 
+
 function NavBar() {
    return (
-      <div className="nav">
+      <nav>
             <ul className="nav-textbox">
                <li className="nav-item">About</li>
                <li className="nav-item">Project</li>
@@ -12,7 +13,7 @@ function NavBar() {
                <li className="nav-item">Education</li>
                <li className="nav-item">Skills</li>
             </ul>
-      </div>
+      </nav>
    )
 }
 

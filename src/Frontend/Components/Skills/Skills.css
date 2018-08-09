@@ -1,0 +1,30 @@
+.section-skills {
+    background-color: #f7f7f7;
+    padding: 15rem 0;
+    margin-top: -25vh;
+    position: relative;
+}
+
+.section-skills-title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-size: 4rem;
+    font-weight: 300;
+    color: #374054;
+    letter-spacing: 2px;
+}
+
+.skill-icons {
+    display: flex;
+    justify-content: space-around;
+    font-size: 3.5rem;
+    list-style-type: none;
+    margin-right: 2rem;
+}
+
+.fab {
+   align-content: center;
+}
+
